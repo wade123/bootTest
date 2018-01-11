@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/world?useSSL=false
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates
+    enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+server:
+  port: 8080
+
+logging:
+  level: DEBUG
