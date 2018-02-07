@@ -1,7 +1,3 @@
-/**
- * BrandBigData.com Inc.
- * Copyright (c) 2017 All Rights Reserved.
- */
 package com.aiden.boot.web.controller;
 
 import com.aiden.boot.dao.CountryDao;
@@ -30,7 +26,7 @@ public class LocationController {
         List<Country> all = countryDao.findAll();
         for (Country country : all) {
             country.setContinent(JsonUtil.writeObjectAsString(country));
-//            model.addAttribute(country.getName(), JsonUtil.writeObjectAsString(country));
+            //            model.addAttribute(country.getName(), JsonUtil.writeObjectAsString(country));
         }
         model.addAttribute("countryList", all);
         return "/country";

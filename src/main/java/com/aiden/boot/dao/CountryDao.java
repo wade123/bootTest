@@ -1,7 +1,3 @@
-/**
- * BrandBigData.com Inc.
- * Copyright (c) 2017 All Rights Reserved.
- */
 package com.aiden.boot.dao;
 
 import com.aiden.boot.domain.entity.Country;

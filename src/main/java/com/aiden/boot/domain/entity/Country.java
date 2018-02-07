@@ -1,11 +1,5 @@
-/**
- * BrandBigData.com Inc.
- * Copyright (c) 2017 All Rights Reserved.
- */
 package com.aiden.boot.domain.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -15,21 +9,21 @@ import javax.persistence.Id;
  */
 @Entity
 public class Country {
-    private String code;
-    private String name;
-    private String continent;
-    private String region;
-    private double surfaceArea;
-    private Short indepYear;
-    private int population;
-    private Double lifeExpectancy;
-    private Double gnp;
-    private Double gnpOld;
-    private String localName;
-    private String governmentForm;
-    private String headOfState;
+    private String  code;
+    private String  name;
+    private String  continent;
+    private String  region;
+    private double  surfaceArea;
+    private Short   indepYear;
+    private int     population;
+    private Double  lifeExpectancy;
+    private Double  gnp;
+    private Double  gnpOld;
+    private String  localName;
+    private String  governmentForm;
+    private String  headOfState;
     private Integer capital;
-    private String code2;
+    private String  code2;
 
     @Id
     public String getCode() {
@@ -119,7 +113,7 @@ public class Country {
     public void setLocalName(String localName) {
         this.localName = localName;
     }
-    
+
     public String getGovernmentForm() {
         return governmentForm;
     }

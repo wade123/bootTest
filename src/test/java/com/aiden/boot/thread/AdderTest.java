@@ -14,6 +14,8 @@ public class AdderTest {
         test1();
         System.out.println("=================================");
         testObj();
+        int[] nums = null;
+        int length = nums.length;
     }
 
     public static void testObj() throws InterruptedException {
